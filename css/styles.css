@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+  margin-left: auto;
+  margin-right: 20px;
+}
+.navbar li {
+  margin: 0 20px;
+  text-align: center;
+}
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+.logo {
+  height: 36px;
+  width: 95px;
+  margin-left: 40px;
+}
+
+.login-link {
+  margin-left: auto;
+  margin-right: 20px;
+  text-decoration: none;
+  color: black;
+}
+.get-started-button {
+  margin-right: 20px;
+  width: 150px;
+  color: white;
+  background-color: #fd6003;
+  border-radius: 5px;
+  border: none;
+  font-size: 13px;
+  padding: 15px 0 15px 0;
+  box-shadow: rgba(0, 0, 0, 0.25);
+}
