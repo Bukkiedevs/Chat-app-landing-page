@@ -19,6 +19,7 @@
 }
 .navbar a {
   text-decoration: none;
+  font-weight: bold;
   color: black;
 }
 .logo {
@@ -45,8 +46,49 @@
   box-shadow: rgba(0, 0, 0, 0.25);
 }
 
+.row {
+  display: flex;
+}
+.column {
+  flex: 50%;
+  text-align: center;
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  line-height: 60px;
+  width: 509px;
+  margin-top: 80px;
+  margin-left: 55px;
+  color: rgba(27, 28, 32, 1);
+}
+.software-text {
+  font-family: "DM Sans", sans-serif;
+  height: 64px;
+  width: 460px;
+  font-size: 18px;
+  line-height: 32px;
+  margin-left: 80px;
+
+  color: #383a47;
+}
+.start-chatting-button {
+  font-family: "DM Sans", sans-serif;
+  margin-right: 330px;
+  margin-top: 10px;
+  width: 165px;
+  color: white;
+  background-color: #fd6003;
+  border-radius: 5px;
+  border: none;
+  font-size: 13px;
+  padding: 15px 0 15px 0;
+  box-shadow: rgba(0, 0, 0, 0.25);
+}
 .image-container {
   position: relative;
+  margin-top: 120px;
+  margin-left: 60px;
   width: 200px;
   height: 200px;
 }
@@ -66,27 +108,58 @@
   position: absolute;
   top: 10px;
   left: 70px;
-  width: 65%;
+  width: 50%;
   height: 50%;
   object-fit: cover;
   border-radius: 50%;
   z-index: 2;
 }
-.side-image {
-  height: 50%;
-  width: 50%;
-}
-.row {
+.rating {
   display: flex;
+  align-items: flex-end;
+  margin-left: 250px;
+  margin-top: -175px;
 }
-.column {
-  flex: 50%;
+
+.customer-rating strong {
+  margin-right: 45px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 30px;
+  color: #1b1c20;
 }
-.rating-section {
-  margin-top: 250px;
-  margin-right: 600px;
-}
-.customers-num {
-  margin-top: 0;
+.customer-rating p {
+  position: relative;
+  color: rgba(56, 58, 71, 1);
+  font-family: "DM Sans", sans-serif;
   font-size: 16px;
+  margin-top: 5px;
+}
+
+.line-image {
+  margin-right: 15px;
+  margin-left: 35px;
+  margin-bottom: 25px;
+}
+.icons {
+  color: #ffc947;
+}
+.picture-container {
+  position: relative;
+  margin-right: 15px;
+}
+.big-picture {
+  height: 965px;
+  width: 668px;
+  margin-top: 20px;
+  margin-left: -1px;
+}
+.small-picture {
+  position: absolute;
+  top: 570px;
+  left: 3px;
+}
+.smaller-picture {
+  position: absolute;
+  top: 410px;
+  left: 403px;
 }
