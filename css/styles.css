@@ -19,8 +19,10 @@
 }
 .navbar a {
   text-decoration: none;
-  font-weight: bold;
-  color: black;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  color: #1b1c20;
 }
 .logo {
   height: 36px;
@@ -32,14 +34,18 @@
   margin-left: auto;
   margin-right: 20px;
   text-decoration: none;
-  color: black;
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+
+  line-height: 30px;
+  color: #1b1c20;
 }
 .get-started-button {
   margin-right: 20px;
   width: 150px;
   color: white;
   background-color: #fd6003;
-  border-radius: 5px;
+  border-radius: 8px;
   border: none;
   font-size: 13px;
   padding: 15px 0 15px 0;
@@ -60,30 +66,29 @@ h1 {
   width: 509px;
   margin-top: 80px;
   margin-left: 55px;
-  color: rgba(27, 28, 32, 1);
+  color: #1b1c20;
 }
 .software-text {
   font-family: "DM Sans", sans-serif;
   height: 64px;
-  width: 460px;
+  width: 440px;
   font-size: 18px;
   line-height: 32px;
   margin-left: 80px;
-
   color: #383a47;
 }
 .start-chatting-button {
   font-family: "DM Sans", sans-serif;
   margin-right: 330px;
   margin-top: 10px;
-  width: 165px;
+  width: 200px;
+  height: 56px;
   color: white;
   background-color: #fd6003;
-  border-radius: 5px;
+  border-radius: 8px;
   border: none;
   font-size: 13px;
   padding: 15px 0 15px 0;
-  box-shadow: rgba(0, 0, 0, 0.25);
 }
 .image-container {
   position: relative;
@@ -151,7 +156,7 @@ h1 {
   height: 965px;
   width: 668px;
   margin-top: 20px;
-  margin-left: -1px;
+  margin-left: 10px;
 }
 .small-picture {
   position: absolute;
@@ -162,4 +167,81 @@ h1 {
   position: absolute;
   top: 410px;
   left: 403px;
+}
+.feature-word {
+  text-align: center;
+  color: #1b1c20;
+  font-size: 36px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  line-height: 56px;
+  margin-bottom: 100px;
+  margin-top: 80px;
+}
+
+h5 {
+  color: #1b1c20;
+  font-size: 21px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  line-height: 3px;
+  margin-top: 10px;
+  margin-right: 80px;
+}
+.feature-icon {
+  margin-left: 100px;
+  margin-bottom: 55px;
+}
+.feature-list {
+  color: #383a47;
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+  line-height: 24px;
+  width: 277px;
+}
+.video-container {
+  background-color: #f8f8fa;
+  margin-top: 65px;
+}
+.woman-headset-video {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin: 105px 916px 104px 143px;
+  width: 541px;
+  height: 376px;
+}
+.video-pictures-container {
+  position: relative;
+}
+.background-image {
+  position: absolute;
+  top: 395px;
+  left: 144px;
+  width: 539px;
+  height: 85px;
+}
+.thumbs-up-image {
+  position: absolute;
+  top: 426px;
+  left: 568px;
+  color: white;
+  size: 16px;
+}
+
+.video-image {
+  position: absolute;
+  top: 426px;
+  left: 340px;
+  color: white;
+}
+.camera-rotate-image {
+  position: absolute;
+  top: 426px;
+  left: 280px;
+  color: white;
+}
+.end-image {
+  position: absolute;
+  top: 410px;
+  left: 390px;
 }
