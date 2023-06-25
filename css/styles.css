@@ -206,7 +206,7 @@ h5 {
 .woman-headset-video {
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
-  margin: 105px 916px 104px 143px;
+  margin: 100px 85px 80px 85px;
   width: 541px;
   height: 376px;
 }
@@ -215,8 +215,8 @@ h5 {
 }
 .background-image {
   position: absolute;
-  top: 395px;
-  left: 144px;
+  top: 392px;
+  left: 85px;
   width: 539px;
   height: 85px;
 }
@@ -231,17 +231,35 @@ h5 {
 .video-image {
   position: absolute;
   top: 426px;
-  left: 340px;
+  left: 300px;
   color: white;
 }
 .camera-rotate-image {
   position: absolute;
   top: 426px;
-  left: 280px;
+  left: 198px;
   color: white;
 }
 .end-image {
   position: absolute;
   top: 410px;
-  left: 390px;
+  left: 350px;
+}
+.video-text {
+  margin: 130px 70px 140px 45px;
+}
+.first-video-text {
+  color: #1b1c20;
+  font-size: 48px;
+  font-family: "DM Sans", sans-serif;
+  line-height: 52px;
+  width: 511px;
+}
+.second-video-text {
+  color: #383a47;
+  font-size: 18px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  line-height: 30px;
+  width: 440px;
 }
