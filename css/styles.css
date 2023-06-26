@@ -1,3 +1,9 @@
+:root {
+  --default-font-family: "DM Sans", sans-serif;
+  --font-family: "Poppins", sans-serif;
+  --default-text-color: #1b1c20;
+  --text-color: #383a47;
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -19,10 +25,9 @@
 }
 .navbar a {
   text-decoration: none;
-
   font-family: "DM Sans", sans-serif;
   font-size: 16px;
-  color: #1b1c20;
+  color: var(--default-text-color);
 }
 .logo {
   height: 36px;
@@ -35,10 +40,9 @@
   margin-right: 20px;
   text-decoration: none;
   font-size: 16px;
-  font-family: "DM Sans", sans-serif;
-
+  font-family: var(--default-font-family);
   line-height: 30px;
-  color: #1b1c20;
+  color: var(--default-text-color);
 }
 .get-started-button {
   margin-right: 20px;
@@ -49,7 +53,6 @@
   border: none;
   font-size: 13px;
   padding: 15px 0 15px 0;
-  box-shadow: rgba(0, 0, 0, 0.25);
 }
 
 .row {
@@ -60,30 +63,30 @@
   text-align: center;
 }
 h1 {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font-family);
   font-size: 50px;
   line-height: 60px;
   width: 509px;
   margin-top: 80px;
   margin-left: 55px;
-  color: #1b1c20;
+  color: var(--default-text-color);
 }
 .software-text {
-  font-family: "DM Sans", sans-serif;
+  font-family: var(--default-font-family);
   height: 64px;
   width: 440px;
   font-size: 18px;
   line-height: 32px;
   margin-left: 80px;
-  color: #383a47;
+  color: var(--text-color);
 }
 .start-chatting-button {
-  font-family: "DM Sans", sans-serif;
+  font-family: var(--default-font-family);
   margin-right: 330px;
   margin-top: 10px;
   width: 200px;
   height: 56px;
-  color: white;
+  color: #ffff;
   background-color: #fd6003;
   border-radius: 8px;
   border: none;
@@ -170,9 +173,9 @@ h1 {
 }
 .feature-word {
   text-align: center;
-  color: #1b1c20;
+  color: var(--default-text-color);
   font-size: 36px;
-  font-family: "DM Sans", sans-serif;
+  font-family: var(--default-font-family);
   font-weight: 700;
   line-height: 56px;
   margin-bottom: 100px;
@@ -180,9 +183,9 @@ h1 {
 }
 
 h5 {
-  color: #1b1c20;
+  color: var(--default-text-color);
   font-size: 21px;
-  font-family: "DM Sans", sans-serif;
+  font-family: var(--default-font-family);
   font-weight: 700;
   line-height: 3px;
   margin-top: 10px;
@@ -193,9 +196,9 @@ h5 {
   margin-bottom: 55px;
 }
 .feature-list {
-  color: #383a47;
+  color: var(--text-color);
   font-size: 16px;
-  font-family: "DM Sans", sans-serif;
+  font-family: var(--default-font-family);
   line-height: 24px;
   width: 277px;
 }
@@ -224,7 +227,7 @@ h5 {
   position: absolute;
   top: 426px;
   left: 568px;
-  color: white;
+  color: #ffff;
   size: 16px;
 }
 
@@ -232,34 +235,52 @@ h5 {
   position: absolute;
   top: 426px;
   left: 300px;
-  color: white;
+  color: #ffff;
 }
 .camera-rotate-image {
   position: absolute;
   top: 426px;
   left: 198px;
-  color: white;
+  color: #ffff;
 }
 .end-image {
   position: absolute;
   top: 410px;
   left: 350px;
 }
-.video-text {
+.video-text-container {
   margin: 130px 70px 140px 45px;
 }
 .first-video-text {
-  color: #1b1c20;
+  color: var(--default-text-color);
   font-size: 48px;
-  font-family: "DM Sans", sans-serif;
+  font-family: var(--default-font-family);
   line-height: 52px;
   width: 511px;
 }
 .second-video-text {
-  color: #383a47;
+  color: var(--text-color);
   font-size: 18px;
-  font-family: "DM Sans", sans-serif;
+  font-family: var(--default-font-family);
   font-weight: 500;
   line-height: 30px;
   width: 440px;
+}
+.text-container {
+  margin: 100px 680px 0 30px;
+}
+.text-container-word {
+  width: 518px;
+  color: var(--default-text-color);
+  font-size: 48px;
+  font-family: var(--default-font-family);
+  font-weight: 700;
+  line-height: 56px;
+}
+.text-container-paragraph {
+  color: var(--text-color);
+  font-size: 16px;
+  font-family: var(--default-font-family);
+  line-height: 26px;
+  width: 492px;
 }
