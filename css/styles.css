@@ -284,3 +284,9 @@ h5 {
   line-height: 26px;
   width: 492px;
 }
+.orders-container {
+  background-color: #fafaf8;
+}
+.feedback {
+  background-color: #fb8e0b;
+}
