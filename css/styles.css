@@ -54,6 +54,12 @@
   font-size: 13px;
   padding: 15px 0 15px 0;
 }
+.get-started-button a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
 .row {
   display: flex;
 }
@@ -89,6 +95,11 @@ h1 {
   border: none;
   font-size: 13px;
   padding: 15px 0 15px 0;
+}
+.start-chatting-button a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
 }
 .image-container {
   position: relative;
@@ -367,6 +378,11 @@ footer button {
   font-size: 13px;
   padding: 15px 0 15px 0;
 }
+footer button a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
 footer .navbar-icon {
   display: flex;
   justify-content: flex-end;
@@ -383,9 +399,11 @@ footer .navbar {
   margin-left: 420px;
   margin-bottom: -30px;
 }
-footer img .logo {
-  background-color: #f8f8fa;
-  margin-bottom: -20px;
+.logo-1 {
+  height: 36px;
+  width: 88px;
+  margin-left: 80px;
+  margin-bottom: -43px;
 }
 footer hr {
   color: #d4d4d8;
