@@ -5,4 +5,4 @@ Features
 -Video chat
 -Messaging
 
-This design is inspired by a creator's design on the Figma community 
+This design is inspired by a creator's design from Figma community 
