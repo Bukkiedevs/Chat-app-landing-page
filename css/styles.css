@@ -432,3 +432,75 @@ footer hr {
   font-family: var(--default-font-family);
   line-height: 26px;
 }
+/*Screen resolution for mobile*/
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+    flex-direction: column;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  .navbar li {
+    margin: 10px;
+  }
+
+  .navbar a {
+    font-size: 14px;
+    color: var(--default-text-color);
+  }
+
+  .login-link,
+  .get-started-button {
+    display: none;
+  }
+
+  #menu-toggle {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: var(--default-text-color);
+    position: relative;
+    cursor: pointer;
+    z-index: 2;
+  }
+
+  .menu-icon:before,
+  .menu-icon:after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: var(--default-text-color);
+    transition: transform 0.2s ease;
+  }
+
+  .menu-icon:before {
+    transform: translateY(-8px);
+  }
+
+  .menu-icon:after {
+    transform: translateY(8px);
+  }
+
+  #menu-toggle:checked ~ .navbar {
+    display: flex;
+  }
+
+  #menu-toggle:checked + .menu-icon:before {
+    transform: translateY(0) rotate(-45deg);
+  }
+
+  #menu-toggle:checked + .menu-icon:after {
+    transform: translateY(0) rotate(45deg);
+  }
+
+  #menu-toggle:checked + .menu-icon {
+    background-color: transparent;
+  }
+}
