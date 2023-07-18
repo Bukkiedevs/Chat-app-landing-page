@@ -503,4 +503,26 @@ footer hr {
   #menu-toggle:checked + .menu-icon {
     background-color: transparent;
   }
+  .image-container,
+  .rating {
+    display: none;
+  }
+  h1 {
+    width: 343px;
+    font-size: 34px;
+    line-height: 49px;
+  }
+  .software-text {
+    width: 318px;
+    margin-left: 55px;
+  }
+  .start-chatting-button {
+    width: 190px;
+    margin-top: 35px;
+    margin-left: 55px;
+  }
+  .big-picture {
+    height: 400px;
+    width: 278px;
+  }
 }
