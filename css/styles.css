@@ -506,8 +506,9 @@ footer hr {
   }
   h1 {
     width: 343px;
-    line-height: 49px;
-    margin-top: 15px;
+    line-height: 39px;
+    margin-top: -15px;
+    font-size: 30px;
   }
   .software-text {
     width: 278px;
@@ -525,7 +526,9 @@ footer hr {
   .thumbs-up-image,
   .video-image,
   .camera-rotate-image,
-  .end-image {
+  .end-image,
+  footer .navbar,
+  hr {
     display: none;
   }
   .big-picture {
@@ -582,6 +585,7 @@ footer hr {
     width: 343px;
     font-size: 32px;
     margin-top: -15px;
+    line-height: 40px;
   }
   .direct-order-paragraph {
     width: 343px;
@@ -600,10 +604,10 @@ footer hr {
     width: 275px;
     font-size: 30px;
     line-height: 40px;
+    height: 80px;
   }
   .feedback-comment {
-    width: 343px;
-    margin-left: 0;
+    width: 247px;
   }
   footer h2 {
     width: 333px;
@@ -614,5 +618,13 @@ footer hr {
   footer button {
     width: 192px;
     margin-left: 90px;
+  }
+  .copyright-text {
+    width: 300px;
+    height: 86px;
+  }
+  .container {
+    max-width: 375px;
+    height: 1050px;
   }
 }
