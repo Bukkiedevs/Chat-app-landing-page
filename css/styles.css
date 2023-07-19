@@ -624,7 +624,7 @@ footer hr {
     height: 86px;
   }
   .container {
-    max-width: 375px;
-    height: 1050px;
+    margin: 0;
+    padding: 0;
   }
 }
