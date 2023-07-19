@@ -189,7 +189,6 @@ h5 {
   color: var(--default-text-color);
   font-size: 21px;
   font-family: var(--default-font-family);
-  font-weight: 700;
   line-height: 3px;
   margin-top: 10px;
   margin-right: 80px;
@@ -233,7 +232,6 @@ h5 {
   color: #ffff;
   size: 16px;
 }
-
 .video-image {
   position: absolute;
   top: 426px;
@@ -269,9 +267,6 @@ h5 {
   line-height: 30px;
   width: 440px;
 }
-.text-container {
-  height: 639px;
-}
 .text-container-word {
   margin: 157px 0px 5px 100px;
   height: 112px;
@@ -279,7 +274,6 @@ h5 {
   color: var(--default-text-color);
   font-size: 48px;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 700;
   line-height: 56px;
 }
 .text-container-paragraph {
@@ -507,22 +501,118 @@ footer hr {
   .rating {
     display: none;
   }
+  .row {
+    flex-direction: column;
+  }
   h1 {
     width: 343px;
-    font-size: 34px;
     line-height: 49px;
+    margin-top: 15px;
   }
   .software-text {
-    width: 318px;
-    margin-left: 55px;
+    width: 278px;
+    margin-left: 45px;
   }
   .start-chatting-button {
     width: 190px;
     margin-top: 35px;
-    margin-left: 55px;
+    margin-left: 45px;
+  }
+  .small-picture,
+  .smaller-picture,
+  .feature-icon,
+  .background-image,
+  .thumbs-up-image,
+  .video-image,
+  .camera-rotate-image,
+  .end-image {
+    display: none;
   }
   .big-picture {
-    height: 400px;
-    width: 278px;
+    width: 310px;
+    height: 448px;
+  }
+  .feature-word {
+    width: 343px;
+    margin-left: 30px;
+  }
+  h5,
+  .feature-list {
+    width: 277px;
+    margin-left: 45px;
+  }
+  .video-container {
+    width: 375px;
+    height: 679px;
+  }
+  .woman-headset-video {
+    width: 252px;
+    height: 200px;
+  }
+  .first-video-text {
+    width: 343px;
+    font-size: 28px;
+    margin-top: -50px;
+  }
+  .second-video-text {
+    width: 313px;
+  }
+  .text-container-word {
+    width: 333px;
+    font-size: 32px;
+    margin: 15px 15px;
+  }
+  .text-container-paragraph {
+    width: 334px;
+    margin: 15px 15px;
+  }
+  .group-picture {
+    width: 343px;
+    margin: 155px 0 10px;
+  }
+  .grouped-picture {
+    width: 343px;
+    margin: 15px 15px;
+  }
+  .orders-container {
+    width: 375px;
+    height: 748px;
+  }
+  .direct-order-text {
+    width: 343px;
+    font-size: 32px;
+    margin-top: -15px;
+  }
+  .direct-order-paragraph {
+    width: 343px;
+  }
+  .review {
+    margin-bottom: 15px;
+  }
+  .product-number {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .product-review {
+    width: 65px;
+  }
+  .remarks {
+    width: 275px;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .feedback-comment {
+    width: 343px;
+    margin-left: 0;
+  }
+  footer h2 {
+    width: 333px;
+    font-size: 32px;
+    line-height: 40px;
+    margin-top: -70px;
+  }
+  footer button {
+    width: 192px;
+    margin-left: 90px;
   }
 }
